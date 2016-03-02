@@ -1,0 +1,11 @@
+[
+	 { "keys": ["ctrl+s"], "command": "save_all" }
+	,{ "keys": ["ctrl+shift+s"], "command": "save" }
+	,{
+		 "keys": ["ctrl+shift+l"]
+		,"command": "insert_snippet"
+		,"args": {
+			"contents": "console.log(${1:}$SELECTION);${0}"
+		}
+	}
+]

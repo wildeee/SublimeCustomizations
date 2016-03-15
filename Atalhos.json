@@ -7,7 +7,19 @@
 		,"args": {
 			"contents": "console.log(${1:}$SELECTION);${0}"
 		}
-	},
-	{ "keys": ["ctrl+t"], "command": "run_macro_file", "args": {"file": "Packages/User/convert_tabs_to_spaces.sublime-macro"} },
-	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}}
+	}
+	,{ 
+		 "keys": ["ctrl+t"]
+		,"command": "run_macro_file"
+		,"args": {
+			"file": "Packages/User/convert_tabs_to_spaces.sublime-macro"
+		}
+	}
+	,{
+		 "keys": ["ctrl+shift+r"]
+		,"command": "reindent"
+		,"args": {
+			"single_line": false
+		}
+	}
 ]
